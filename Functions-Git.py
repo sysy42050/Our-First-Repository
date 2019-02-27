@@ -16,6 +16,7 @@ greeting()
 # Syann Hollins
 # 2.14.19
 
+
 x = 11
 
 def print_something():
@@ -48,3 +49,15 @@ def print_number(x):
 
 print_number(12)
 print_number('\n' + 'Hello World')
+
+
+#4.14.4: Name & Age
+# Syann Hollins
+#2.18.19
+
+def name_and_age(name, age):
+    print('\n' 'Hi, my name is',name, 'and I am', str(age), 'years old.')
+
+name_and_age('Syann', 15)
+name_and_age('Sasha', 13)
+name_and_age('George', 58)
